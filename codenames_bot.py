@@ -7,8 +7,6 @@ import time
 # import enchant  # This would work great! But i cannot install the dependencies on my work comp...
 
 nlp = spacy.load('en_core_web_lg')
-#os.chdir('/Users/tbarton/Documents/GitHub/Living_diary/LivingDiary')
-
 
 def guesser(guess_word, number, game_words):
     try:
